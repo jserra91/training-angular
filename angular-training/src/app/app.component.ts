@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  value1: string = 'Jordi Serra Gonzalez';
+  KNIGHT = './assets/knight.png';
+  KNIGHT_ROTATE = './assets/knight-rotate.png';
 
-  handleInput(event: any) {
-    this.value1 = event.target.value;
-  }
+  player1: string = 'Jordi Serra';
+  player2: string = 'Ferran Bernal';
 }

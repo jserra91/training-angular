@@ -1,0 +1,29 @@
+.app {
+    .select {
+        margin: auto;
+        width: 50%;
+
+        .player{
+            margin-bottom: 20px;
+            input[type=text] {
+                border: none;
+                border-bottom: 2px solid green;
+            }
+
+            .primary {
+                border-color: green;
+                background-color: green;
+                width: 150px;
+                height: 50px;
+            }
+        }
+    }
+    .game {
+        margin: auto;
+        width: 50%;
+
+        .divider{
+            float: left
+        }
+    }
+}
