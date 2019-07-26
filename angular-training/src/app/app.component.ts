@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-training';
+  value1: string = 'Jordi Serra Gonzalez';
+
+  handleInput(event: any) {
+    this.value1 = event.target.value;
+  }
 }
