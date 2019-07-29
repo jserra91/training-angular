@@ -11,4 +11,6 @@ export class AppComponent {
 
   player1: string = 'Jordi Serra';
   player2: string = 'Ferran Bernal';
+
+  start: boolean = true;
 }

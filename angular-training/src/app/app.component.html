@@ -1,5 +1,5 @@
 <div class="app">
-    <div class="select">
+    <div class="select" *ngIf="start">
         <div class="player">
             <input type="text" [(ngModel)]="player1">
         </div>
@@ -7,10 +7,10 @@
             <input type="text" [(ngModel)]="player2">
         </div>
         <div class="player">
-            <button class="primary"> START </button>
+            <button class="primary" (click)="start = !start"> START </button>
         </div>
     </div>
-    <div class="game">
+    <div class="game" *ngIf="!start">
         <div class="divider">
             <img [src]="KNIGHT" >
         </div>
